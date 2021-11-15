@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: lato, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6{
+    width:50%;
+    padding: 0 15px;
+}
+.col-4{
+    width: 33.3%;
+    padding: 0 15px;
+
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+header{
+    position: absolute;
+    width: 100%;
+    top: 30px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-tittle{
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 5px;
+}
+.header-link{
+    color: white;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+.header-button{
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 11px 28px;
+    border: 1px solid white;
+    color: white;
+    transition: .6s;
+    cursor: pointer;
+}
+.header-button:hover{
+    background-color: white;
+    color: #ED4C5C;
+    transition: .6s;
+}
+/*header*/
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-select{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #b0b0b0;
+    margin-right: 10px;
+}
+
+/*header*/
+/*hero*/
+.hero {
+    background: url("../images/hero/Bg.png") top left/100% 100% no-repeat;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.hero-tittle {
+    font-size: 72px;
+    line-height: 86px;
+    text-transform: uppercase;
+}
+
+.hero-text {
+    font-size: 24px;
+    line-height: 150%;
+    margin: 25px 0;
+}
+
+.hero-button {
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 17px 53px;
+    border: 1px solid white;
+    color: white;
+    transition: .6s;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: white;
+    color: #ED4C5C;
+    transition: .6s;
+
+}
+
+
+
+.video{
+    padding: 94px 0 95px;
+
+}
+.video-tittle{
+font-size: 36px;
+    line-height: 43px;
+}
+.video-text{
+font-size: 14px;
+    line-height: 140%;
+    margin: 24px 0;
+}
+.video-link{
+font-size: 14px;
+    line-height: 140%;
+    color: #ED4C5C;
+}
+.video-item-2{
+    position: relative;
+
+}
+.video-play{
+    width: 66px;
+    height: 66px;
+   background-color: #ED4C5C;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.video-play:hover{
+    background-color: red;
+    transition: .6s;
+
+}
+
+
+/*fetures*/
+
+.features{
+padding: 63px 0 124px;
+    background-color: white;
+
+}
+
+.features-tittle{
+    text-align: center;
+    margin-bottom: 63px;
+    padding: 63px;
+    font-size: 36px;
+    line-height: 43px;
+}
+.features-item{
+position: relative;
+}
+.features-content {
+    width: 293px;
+    height: 198px;
+    background-color: white;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 33px 32px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.features-subtittle{
+    font-size: 18px;
+    line-height: 22px;
+}
+.features-text{
+    font-size: 12px;
+    line-height: 150%;
+    margin: 15px 0;
+}
+.features-link{
+    font-size: 12px;
+    line-height: 150%;
+    color: #ED4C5C;
+}
+
+/*fetures*/
+
+
+
+/*technology*/
+
+.technology{
+    padding: 63px 0 104px;
+  text-align: center;
+}
+.technology-tittle{
+    text-align: center;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 52px;
+}
+.technology-item{
+
+}
+.technology-number{
+    font-size: 100px;
+    line-height: 120px;
+    color: rgba(16, 16, 16, 0.08);
+    text-align: center;
+    font-weight: bold;
+}
+.technology-block{
+    position: relative;
+}
+.technology-subtittle{
+    font-size: 18px;
+    line-height: 22px;
+}
+.technology-text{
+    font-size: 12px;
+    line-height: 14px;
+
+
+}
+.technology-img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -80%)
+}
+.technology-content{
+    text-align: center;
+    margin-top: 19px;
+}
+
+
+
+/*technology*/
+
